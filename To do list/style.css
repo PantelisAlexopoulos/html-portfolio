@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(4, 168, 168);
+    color: rgb(240, 239, 239);
+    text-align: center;
+    padding: 20px 40px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    position: relative;
+    padding: 13px 10px 10px 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+ul li:nth-child(odd) {
+    background-color: rgb(240, 239, 239);
+}
+
+ul li:hover {
+    background-color:rgb(197, 197, 197) ;
+
+}
+
+input {
+    font-size: 20px;
+    border: none;
+    width: 80%;
+    float: left;
+    padding: 10px;
+}
+
+.button {
+    border: none;
+    font-size: 20px;
+    width: 20%;
+    padding: 10px;
+    background-color: #dadada;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(207, 207, 207);
+}
